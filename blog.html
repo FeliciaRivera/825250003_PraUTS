@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Pantai Siangau</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header: logo di kiri, judul di kanan -->
+  <header>
+    <div class="container header-grid">
+      <img src="image/thumbnail.png" alt="Pantai Siangau">
+      <div class="header-judul">
+        <h1>Pantai Siangau</h1>
+        <p>Halaman Resmi Blog Kami</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Menu navigasi (Blog bertanda aktif) -->
+  <nav>
+    <!-- Checkbox menyimpan status menu terbuka/tertutup (dipakai di layar kecil) -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-icon" aria-label="Buka menu"><span></span><span></span><span></span></label>
+    <ul class="container">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#artikel">About</a></li>
+      <li><a href="index.html#galeri">Services</a></li>
+      <li><a href="blog.html" class="aktif">Blog</a></li>
+      <li><a href="index.html#profil">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Isi blog -->
+  <main class="container blog-konten">
+    <h2 class="judul-bagian">Selamat Datang di Blog Lokal Kami</h2>
+    <div class="blog-isi">
+      <h3>Artikel Blog Terbaru</h3>
+      <p>Ini adalah halaman blog lokal yang terhubung dari menu utama website.</p>
+      <a href="index.html">&larr; Kembali ke Halaman Utama</a>
+    </div>
+  </main>
+
+  <!-- Footer: 3 kolom di atas, copyright di bawah -->
+  <footer>
+    <div class="container footer-atas">
+      <div>
+        <h4>About Siangau</h4>
+        <p>Pantai Siangau terletak di Dusun Pala, Kecamatan Parittiga, Kabupaten Bangka Barat. Pantai ini memiliki luas kurang lebih 5 hektar dengan karakter alam yang masih terjaga.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#artikel">About</a></li>
+          <li><a href="index.html#galeri">Services</a></li>
+          <li><a href="index.html#profil">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
+        <p>Email: felicia.825250003@stu.untar.ac.id<br> Phone: +6281383763005<br>Address: Desa Teluk Limau, Kecamatan Parittiga, Kabupaten Bangka Barat</p>
+      </div>
+    </div>
+    <div class="container footer-bawah">&copy; 2026 Pantai Siangau. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
