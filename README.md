@@ -25,3 +25,6 @@ Website sederhana bertema Pantai Siangau, Bangka. Dibuat hanya dengan HTML dan C
 
 - HTML5
 - CSS3: Grid, Flexbox, variabel CSS, transition, media query
+
+## Link Repository Github
+- https://github.com/FeliciaRivera/825250003_PraUTS
